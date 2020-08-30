@@ -1,0 +1,271 @@
+@import url('https://fonts.googleapis.com/css?family=Caveat|Gloria+Hallelujah|Patrick+Hand');
+
+html,body{
+	margin: 0;
+	padding: 0;
+
+}
+
+
+#wrapper{
+	width: 1400px;
+	margin: auto;
+
+}
+
+
+/* Top Menu*/
+nav{
+	height: 60px;
+	padding: 0 150px;
+	padding-bottom: 30px;	
+}
+
+nav .logo{
+	width: 150px;
+	height: 100px;
+	padding-top: 0px;
+	float: left;
+}
+
+nav .logo img{
+	width: 100%;
+	
+}
+
+nav .menu{
+	padding-top: 50px;
+	padding-left: 200px;
+
+	
+}
+
+nav .menu li{
+	display: inline-block;
+}
+
+nav .menu li a{
+	font-family: 'Gloria Hallelujah', cursive;
+	font-size: 30px;
+	font-weight: bold;
+	text-decoration: none;
+	padding: 50px 20px;
+	line-height: 45px;
+	color: #ED2028;
+	text-shadow: -3px 1px 0px #000000;
+}
+
+nav .menu li a:hover{
+	text-shadow: -2px -4px 0px #000000;
+}
+
+header{
+	height: 400px;
+	/*background-color: black;*/
+	background-image: url(img/giphy.gif);
+	background-position: center;
+	background-repeat: no-repeat;
+	position: relative;
+}
+
+
+#section1{
+	height: 300px;
+	background-image: url(img/bg6.jpg);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	position: relative;
+	border-radius: 100px;
+
+}
+
+#section1 h1{
+	font-family: 'Gloria Hallelujah', cursive;
+	font-size: 30px;
+	font-weight: bold;
+	text-align: center;
+	padding-top: 1%;
+	text-decoration: none;
+	color:#BCEDE9;
+	margin: 0px;
+}
+
+#section1 .sectionleft{
+	float: left;
+	width: 70%;
+
+}
+
+#section1 .sectionright{
+	float: right;
+	width: 30%;
+	margin: 0px;
+}
+
+#section1 .sectionright img{
+	margin-top: -11%;
+	margin-left:20%;
+	border: 1px solid black;
+	width: 200px;
+    height: 250px;
+	border-radius: 50px;
+}
+
+#section1 div h1{
+	line-height: 20px;
+	text-align: center;
+	
+	padding-left: 70px;
+	text-decoration: none;
+	color: #BCEDE9;
+	font:   normal  30px/1  'Patrick Hand', cursive;
+}
+
+#section2{
+	height: 430px;
+	margin-left: 3%;
+}
+
+#section2 h1{
+	font-family: 'Gloria Hallelujah', cursive;
+	font-size: 30px;
+	font-weight: bold;
+	text-align: center;
+	padding-top: 1%;
+	text-decoration: none;
+	color: black;
+}
+
+/*#section2 #images li{
+	text-decoration: none;
+	display: inline-block;
+}*/
+
+/*#section2 #images ul img{
+	padding: 80px; 0;
+}*/
+
+
+div .card11, #card22, #card33{
+	margin: 10px;
+	height: 400px;
+	width: 400px;
+	display: inline-block;
+	border: 1px solid darkgray;
+	background-color: white;
+	border-radius:15px;
+
+	
+}
+
+.card11 .top img{
+	width: 100px;
+	height: 100px;
+	margin-left: 38%;
+	margin-top: 5%;
+} 
+
+#card22 .top img{
+	width: 50px;
+	height: 50px;margin-left: 45%;
+	margin-left: 38%;
+	margin-top: 5%;
+} 
+
+#card33 .top img{
+	width: 50px;
+	height: 50px;
+	margin-left: 38%;
+	margin-top: 5%;
+} 
+
+.card11 .middle h1{
+text-align: center;
+	font: bold  15px/1  'Raleway', sans-serif;
+	margin: 20px;
+
+}
+
+.card11 .footer{
+
+}
+.card11 .footer h3{
+	padding-left: 5px;
+	padding-right: 5px;
+	line-height: 30px;
+	text-align: center;
+	font: normal  15px/1  'Raleway', sans-serif;
+	color: darkgray;
+	
+}
+
+
+#section3{
+	height: 250px;
+	margin-top: 8%;
+}
+
+#section3 h1{
+	font-family: 'Gloria Hallelujah', cursive;
+	font-size: 30px;
+	font-weight: bold;
+	text-align: center;
+	padding-top: 1%;
+	text-decoration: none;
+	color: black;
+}
+
+#section3 #education li{
+	list-style-type: square;
+	color:  #0E7494;
+}
+#section3 #education a{
+	line-height: 35px;
+	font-family: 'Caveat', cursive;
+	font-size: 28px;
+	text-align: center;
+	padding-top: 1%;
+	text-decoration: none;
+	color: #CE4D90;
+}
+
+#section4 h1{
+	text-align: center;
+}
+#section4 a{
+	font-family: 'Gloria Hallelujah', cursive;
+	font-size: 30px;
+	text-align: center;
+	font-weight: bold;
+	text-decoration: none;
+	color:  #0E7494;
+	text-shadow: -3px 1px 0px #000000;
+}
+
+#section4 a:hover{
+	text-shadow: -2px -4px 0px #000000;
+}
+
+#section4 h2{
+	font-family: 'Caveat', cursive;
+	font-size: 20px;
+	text-align: center;
+	text-decoration: none;
+	color: #000000;
+	
+}
+.copyright {
+    background-color: black;
+    text-align: center;
+    color: white;
+    padding: 10px;
+    margin-top: 0px;
+}
+
+#section4 .menu li{
+	display: inline-block;
+}
+#section4 .menu{
+	margin-left: 20%;
+}

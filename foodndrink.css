@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css?family=Caveat|Gloria+Hallelujah|Patrick+Hand');
+
+html,body{
+	margin: 0;
+	padding: 0;
+
+}
+
+
+#wrapper{
+	width: 1400px;
+	margin: auto;
+
+}
+#section1{
+	margin-top: 1%;
+	height: 600px;
+	background-image: url(img/foodwall.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed;
+	
+
+}
+
+#section1 h1{
+	font-family: 'Gloria Hallelujah', cursive;
+	margin-top: 1%;
+	padding-top: 2%;
+	font-size: 35px;
+	font-weight: bold;
+	text-decoration: none;
+	line-height: 45px;
+	text-align: center;
+	color: black;
+	text-shadow: -3px 1px 0px black;
+}
+
+#section1 h2{
+	font-family: 'Gloria Hallelujah', cursive;
+	font-size: 18px;
+	text-decoration: none;
+	text-align: justify;
+	color: black;
+	font-weight: bolder;
+	text-shadow: -1px 1px 0px black;
+}
+
+#section2{
+	height: 700px;
+	background-image: url(img/drinkwall.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+	
+
+}
+#section2 h1{
+	font-family: 'Gloria Hallelujah', cursive;
+	margin-top: 5%;
+	padding-top: 2%;
+	font-size: 35px;
+	font-weight: bold;
+	text-decoration: none;
+	line-height: 30px;
+	text-align: center;
+	color: white;
+	text-shadow: -3px 1px 0px white;
+}
+
+#section2 h2{
+	font-family: 'Gloria Hallelujah', cursive;
+	font-size: 18px;
+	text-decoration: none;
+	text-align: justify;
+	color: white;
+	font-weight: bolder;
+	text-shadow: -1px 1px 0px white;
+}
+#section1 li{
+	display: inline-block;
+}
+
+#section1 li img{
+	height: 150px;
+	width: 150px;
+	border-radius: 80px;
+	padding: 10px 10px;
+}
+
+#section2 li{
+	display: inline-block;
+}
+
+#section2 li img{
+	height: 280px;
+	width: 400px;
+	border-radius: 50px;
+	padding: 10px 10px;
+}
+/* Top Menu*/
+nav{
+	height: 60px;
+	padding: 0 150px;
+	padding-bottom: 30px;	
+}
+
+nav .logo{
+	width: 150px;
+	height: 100px;
+	padding-top: 0px;
+	float: left;
+}
+
+nav .logo img{
+	width: 100%;
+	
+}
+
+nav .menu{
+	padding-top: 50px;
+	padding-left: 200px;
+	
+}
+
+nav .menu li{
+	display: inline-block;
+}
+
+nav .menu li a{
+	font-family: 'Gloria Hallelujah', cursive;
+	font-size: 30px;
+	font-weight: bold;
+	text-decoration: none;
+	padding: 50px 20px;
+	line-height: 45px;
+	color: #ED2028;
+	text-shadow: -3px 1px 0px #000000;
+}
+
+nav .menu li a:hover{
+	text-shadow: -2px -4px 0px #000000;
+}
+
+
+#section4 h1{
+	text-align: center;
+}
+#section4 a{
+	font-family: 'Gloria Hallelujah', cursive;
+	font-size: 30px;
+	text-align: center;
+	font-weight: bold;
+	text-decoration: none;
+	color:  #0E7494;
+	text-shadow: -3px 1px 0px #000000;
+}
+
+#section4 a:hover{
+	text-shadow: -2px -4px 0px #000000;
+}
+
+#section4 h2{
+	font-family: 'Caveat', cursive;
+	font-size: 20px;
+	text-align: center;
+	text-decoration: none;
+	color: #000000;
+	
+}
+.copyright {
+    background-color: black;
+    text-align: center;
+    color: white;
+    padding: 10px;
+    margin-top: 0px;
+}
+
+#section4 .menu li{
+	display: inline-block;
+}
+#section4 .menu{
+	margin-left: 20%;
+}
